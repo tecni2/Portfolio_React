@@ -3,6 +3,7 @@ proyecto de portfolio con React.js
 * Agregado boton de cambio de tema claro/oscuro (funcional)
 * Agregado menu con Home, About, Project (no esta terminado totalmente)
 * Agregado menu hamburguesa (no esta terminado totalmente)
+* trabando en los estilos del Header. 
 
 * Puedes ver el progreso del proyecto aqui  =>  https://eleazar-chusmita-portfolio.netlify.app/
 * Imagenes del progreso del proyecto.
