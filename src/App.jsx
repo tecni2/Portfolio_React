@@ -30,16 +30,12 @@ function App() {
             toggleMenu={toggleMenu}
             toggleTheme={toggleTheme}
           />
-          <section 
-            id="home"
-            className="px-0 lg:px-5 2x1:px-40 py-10 lg:py-0"
-            >
-              <Header />
-            </section>
+          <section id="home" className="px-0 lg:px-5 2x1:px-40 py-10 lg:py-0">
+            <Header />
+          </section>
         </div>
         <section className="w-full bg-[#061130] py-20">
-
-        <Project/>
+          <Project />
         </section>
       </div>
     </div>
