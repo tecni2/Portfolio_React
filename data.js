@@ -21,19 +21,19 @@
 export const projectStats = [
   {
     name: "Total Projects",
-    value: "200+",
+    value: "100+",
   },
   {
     name: "Website Design",
-    value: "150+",
+    value: "75+",
   },
   {
     name: "Mobile App Design",
-    value: "50",
+    value: "25",
   },
   {
     name: "Clients worldwide",
-    value: "+86",
+    value: "+12",
   },
 ];
 
