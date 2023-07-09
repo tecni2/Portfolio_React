@@ -1,11 +1,14 @@
-import React, { Component } from "react";
-// import { Mongodb, Nodejs, Profile, React, Redux } from "../assets";
+
+import { Nodejs, Reactjs, Redux, Nextjs, Javascript } from "../assets";
+
 // import Profile from "../assets/eleazar_chusmita_22.png";
-import JavaScript from "../assets/javascript.svg";
-import Nexts from "../assets/nextjs.svg";
-import Reactjs from "../assets/reactjs.svg";
-import Nodejs from "../assets/nodejs.svg";
-import Redux from "../assets/redux.svg";
+// import JavaScript from "../assets/javascript.svg";
+// import Nexts from "../assets/nextjs.svg";
+// import Reactjs from "../assets/reactjs.svg";
+// import Nodejs from "../assets/nodejs.svg";
+// import Redux from "../assets/redux.svg";
+
+
 
 const Header = () => {
   return (
@@ -45,7 +48,7 @@ const Header = () => {
       <div className="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:nt-20 lg:mt-0 flex items-center justify-center">
         {/* src{Profile} */}
         <img
-          src={JavaScript}
+          src={Javascript}
           className="w-20 h-full absolute -top-5 md:-top-10"
           alt=""
         />
@@ -61,7 +64,7 @@ const Header = () => {
             alt=""
           />
           <img
-            src={Nexts}
+            src={Nextjs} 
             className="absolute top-3 md:top-20 right-6 2xl:right-7 w-12 h-12 md:w-20 md:h-20"
             alt=""
           />

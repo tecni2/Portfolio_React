@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import { projectStats } from "../../data.js";
+
+import { projectStats, tools } from "../data";
+import { Mongodb } from "../assets";
 
 const Project = () => {
   return (
     <div>
-      <div className="w-full flex flex-wrap items-center justify-center gap-10 lg:gap-20 pt-10">
+      {/* <div className="w-full flex flex-wrap items-center justify-center gap-10 lg:gap-20 pt-10">
         {projectStats.map((p, index) => (
           <div
             key={index}
@@ -14,11 +15,12 @@ const Project = () => {
             <p className="text-white text-sm">{p.name}</p>
           </div>
         ))}
-      </div>
+      </div> */}
       <div className="w-full flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-16">
+        <h2 className="text-white"> Trabajando en la sección de proyectos</h2>
         {/* {tools.map((t, index) => (
-          <div key={index}>
-            <img src="" alt="" />
+          <div className="flex gap-2 items-center" key={index}>
+            <img src={t.icon} alt="" />
             <p>{t.name}</p>
           </div>
         ))} */}

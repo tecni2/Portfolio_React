@@ -1,25 +1,25 @@
-import Mongodb from "./src/assets/mongodb.svg";
-// import MongoDB from "../assets/MongoDB.svg";
+// import Mongodb from "./src/assets/mongodb.svg";
+// import Mongodb from "./assets";
 
-// import {
-//   CSS3,
-//   Express,
-//   HTML5,
-//   Javascript,
-//   Mongodb,
-//   Nextjs,
-//   Nextjs2,
-//   Nodejs,
-//   Python,
-//   Reactjs,
-//   admin,
-//   food,
-//   food1,
-//   port1,
-//   port2,
-//   port3,
-//   social,
-// } from "./assets";
+import {
+  CSS3,
+  Express,
+  HTML5,
+  Javascript,
+  Mongodb,
+  Nextjs,
+  Nextjs2,
+  Nodejs,
+  Python,
+  Reactjs,
+  admin,
+  food,
+  food1,
+  port1,
+  port2,
+  port3,
+  social,
+} from "./assets";
 
 export const projectStats = [
   {
@@ -46,20 +46,20 @@ export const tools = [
     icon: Mongodb,
   },
   {
-    // name: "Express",
-    // icon: Express,
+    name: "Express",
+    icon: Express,
   },
   {
-    // name: "React",
-    // icon: Reactjs,
+    name: "React",
+    icon: Reactjs,
   },
   {
-    // name: "NodeJs",
-    // icon: Nodejs,
+    name: "NodeJs",
+    icon: Nodejs,
   },
   {
-    // name: "NextJs",
-    // icon: Nextjs2,
+    name: "NextJs",
+    icon: Nextjs2,
   },
 ];
 
