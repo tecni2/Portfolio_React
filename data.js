@@ -1,3 +1,6 @@
+import Mongodb from "./src/assets/mongodb.svg";
+// import MongoDB from "../assets/MongoDB.svg";
+
 // import {
 //   CSS3,
 //   Express,
@@ -37,28 +40,28 @@ export const projectStats = [
   },
 ];
 
-// export const tools = [
-//   {
-//     name: "MongoDB",
-//     icon: Mongodb,
-//   },
-//   {
-//     name: "Express",
-//     icon: Express,
-//   },
-//   {
-//     name: "React",
-//     icon: Reactjs,
-//   },
-//   {
-//     name: "NodeJs",
-//     icon: Nodejs,
-//   },
-//   {
-//     name: "NextJs",
-//     icon: Nextjs2,
-//   },
-// ];
+export const tools = [
+  {
+    name: "MongoDB",
+    icon: Mongodb,
+  },
+  {
+    // name: "Express",
+    // icon: Express,
+  },
+  {
+    // name: "React",
+    // icon: Reactjs,
+  },
+  {
+    // name: "NodeJs",
+    // icon: Nodejs,
+  },
+  {
+    // name: "NextJs",
+    // icon: Nextjs2,
+  },
+];
 
 // export const skills = [
 //   {
