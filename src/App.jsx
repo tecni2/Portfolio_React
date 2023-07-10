@@ -37,6 +37,10 @@ function App() {
         <section className="w-full bg-[#061130] py-20">
           <Project />
         </section>
+
+        <section id="about" className="w-full px-0 lg:px-5 2xl:px-40">
+
+        </section>
       </div>
     </div>
   );
