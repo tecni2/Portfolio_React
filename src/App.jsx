@@ -40,6 +40,8 @@ function App() {
 
         <section id="about" className="w-full px-0 lg:px-5 2xl:px-40">
 
+        <h2 className="text-black mx-20 my-20"> Trabajando en la sección de About</h2>
+
         </section>
       </div>
     </div>

@@ -4,7 +4,7 @@ const Project = () => {
   return (
     <div>
       <div className="w-full flex flex-wrap items-center justify-center gap-10 lg:gap-20 pt-10">
-        <h2 className="text-white"> Trabajando en la sección de proyectos</h2>
+       
         {/* {projectStats.map((p, index) => (
           <div
             key={index}
