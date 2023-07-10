@@ -12,7 +12,7 @@ const About = () => {
       <p className="text-3xl font-bold text-black dark:text-white"
       >
         About Me
-        {/* 11:33 verificar pantalla grande */}
+        {/* 11:33 verificar pantalla*/}
       </p>
       </div>
       
