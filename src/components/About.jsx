@@ -15,7 +15,7 @@ const About = () => {
           About Me
         </p>
         <p>
-          Full.Stack Web Developer with ability to learn and collaborate in rapidly
+          Full.Stack Web Developer with ability to learn and collaborate in rapidly changing environments and compositions. Worked through hours of bootcamp structure, learning JavaScript, NodeJs, ReactJs, NextJs and TypeScript.
         </p>
       </div>
       {/* 11:33 verificar pantalla*/}
