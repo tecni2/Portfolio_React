@@ -1,6 +1,7 @@
 import Perfil from "../assets/eleazar_chusmita_1--.png";
 import { FaUserAlt } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -29,6 +30,9 @@ const About = () => {
             <FaUserAlt size={24} /> Eleazar Chusmita
           </p>
           <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
+            <BsWhatsapp size={24} /> +57 322 245 74 11
+          </p>
+          <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
             <MdOutlineAlternateEmail size={24} /> tecni2.elie.@gmail.com
           </p>
 
@@ -39,3 +43,5 @@ const About = () => {
 };
 
 export default About;
+
+// 15:53
