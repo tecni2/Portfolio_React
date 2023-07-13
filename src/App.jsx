@@ -18,11 +18,11 @@ function App() {
   return (
     <div
       className={`w-full h-full min-h-[100vh]
-       bg-gray-100 ${darkMode && "dark"}`}
+       bg-gray-200 ${darkMode && "dark"}`}
     >
       <div
         className="w-full h-full min-h-[100vh]
-         bg-gray-100"
+         bg-gray-200"
       >
         <div className="dark:bg-gradient-to-tr from-[#0235a3] via-[#030a1c] to-[#05174e]">
           <Navbar

@@ -18,7 +18,7 @@ const Header = () => {
           FULL-STACK DEVELOPER
         </span>
         <div className="flex gap-4 items-center my-4">
-          <h1 className="text-gray-800 dark:text-neutral-100 text-5xl 2xl:text-7xl font-bold text-center">
+          <h1 className="text-gray-800 dark:text-neutral-200 text-5xl 2xl:text-7xl font-bold text-center">
             I'm a
           </h1>
           <div className="flex items-center justify-center text-white shadow-lg bg-blue-800 dark:bg-[#224cff10] dark:text-[#224cff] rounded-full">
@@ -27,10 +27,10 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <h1 className="text-5xl 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider">
+        <h1 className="text-5xl 2xl:text-7xl font-extrabold text-black dark:text-neutral-200 tracking-wider">
           Eleazar Chusmita
         </h1>
-        <p className="text-md text-black dark:text-gray-100 mt-5 2xl:mt-10">
+        <p className="text-md text-black dark:text-gray-300 mt-5 2xl:mt-10">
           Full-Stack Web Developer with ability to learn and collaborate in
           rapidly changing environments and compositions.
         </p>
