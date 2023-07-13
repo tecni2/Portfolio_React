@@ -1,4 +1,4 @@
-import Perfil from "../assets/eleazar_chusmita_1.png";
+import Perfil from "../assets/eleazar_chusmita_1--.png";
 
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
       <div className="w-full md:h-[290px] lg:w-1/3 flex flex-col items-center border border-gray-500 dark:bg-transparent rounded-md">
         <img
           src={Perfil}
-          className="h-[290px] p-1 rounded-md ease-in-out duration-300 hover:scale-125"
+          className="h-[290px] p-1 rounded-full ease-in-out duration-300 hover:scale-125"
           alt=""
         />
       </div>
@@ -14,11 +14,11 @@ const About = () => {
         <p className="text-3xl font-bold text-black dark:text-white">
           About Me
         </p>
-        <p>
+        <p className="">
           Full.Stack Web Developer with ability to learn and collaborate in rapidly changing environments and compositions. Worked through hours of bootcamp structure, learning JavaScript, NodeJs, ReactJs, NextJs and TypeScript.
         </p>
       </div>
-      {/* 11:33 verificar pantalla*/}
+      // 11:43 verificar pantalla
     </div>
   );
 };

@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* img {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  width: 325px;
+  object-fit: cover;
+} */
+
