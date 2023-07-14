@@ -2,6 +2,7 @@ import Perfil from "../assets/eleazar_chusmita_1--.png";
 import { FaUserAlt } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
+import { BiLogoLinkedin } from "react-icons/bi";
 
 const About = () => {
   return (
@@ -33,8 +34,13 @@ const About = () => {
             <BsWhatsapp size={24} /> +57 322 245 7411
           </a>
           <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
-            <MdOutlineAlternateEmail size={24} /> tecni2.elie.@gmail.com
+            <MdOutlineAlternateEmail size={24} /> tecni2.elie.elie@gmail.com
           </p>
+
+          <a href="https://www.linkedin.com/in/eleazarchusmita/" target="_blank" className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
+            <BiLogoLinkedin size={24} /> Linkedin
+          </a>
+          
 
         </div>
       </div>
