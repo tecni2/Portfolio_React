@@ -30,18 +30,24 @@ const About = () => {
           <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
             <FaUserAlt size={24} /> Eleazar Chusmita
           </p>
-          <a href="http://wa.me/+573222457411" target="_blank" className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
+          <a
+            href="http://wa.me/+573222457411"
+            target="_blank"
+            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer"
+          >
             <BsWhatsapp size={24} /> +57 322 245 7411
           </a>
           <p className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
             <MdOutlineAlternateEmail size={24} /> tecni2.elie.elie@gmail.com
           </p>
 
-          <a href="https://www.linkedin.com/in/eleazarchusmita/" target="_blank" className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer">
+          <a
+            href="https://www.linkedin.com/in/eleazarchusmita/"
+            target="_blank"
+            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-gray-300 cursor-pointer"
+          >
             <BiLogoLinkedin size={24} /> Linkedin
           </a>
-          
-
         </div>
       </div>
     </div>
@@ -49,4 +55,3 @@ const About = () => {
 };
 
 export default About;
-
