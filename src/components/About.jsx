@@ -50,4 +50,3 @@ const About = () => {
 
 export default About;
 
-// 16:00
