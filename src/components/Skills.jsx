@@ -1,4 +1,4 @@
-// import { Skills } from "../data";
+import { skills } from "../data";
 
 const Skills = () => {
   return (
@@ -8,14 +8,17 @@ const Skills = () => {
       </h4>
 
       <div className="w-full flex flex-wrap gap-10 items-center justify-center">
-        {/* {Skills.map((skil, index) => (
-          <div key={index} className="">
-            <div className="">
+        {skills.map((skil, index) => (
+          <div
+            key={index}
+            className="flex gap-4 shadow-lg py-2 px-6 bg-[#04133e] rounded-full items-center hover:animate-bounce ease-in-out duration-300"
+          >
+            <div className="w-10 h-10">
               <img src={skil.icon} alt="" />
             </div>
           </div>
-        ))} */}
-        {/* 19:40 */}
+        ))}
+        {/* 21:38 */}
       </div>
     </div>
   );
