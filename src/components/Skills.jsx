@@ -34,8 +34,13 @@ const Skills = () => {
             </div>
           </div>
         ))}
-        {/* 24:25 */}
       </div>
+
+      <div className="mt-[10rem]">
+        <h4 className="">Soft Skills</h4>
+
+      </div>
+
     </div>
   );
 };
