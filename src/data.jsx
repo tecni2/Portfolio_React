@@ -85,14 +85,14 @@ export const skills = [
     icon: Mongodb,
   },
   {
-    name: "CSS3",
-    value: 98,
-    icon: CSS3,
-  },
-  {
     name: "HTML5",
     value: 98,
     icon: HTML5,
+  },
+  {
+    name: "CSS3",
+    value: 98,
+    icon: CSS3,
   },
   {
     name: "JavaScript",
