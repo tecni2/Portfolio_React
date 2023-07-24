@@ -13,7 +13,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             href="/"
             className="text-2xl font-bold text-blue-500 cursor-pointer"
           >
-            By Eliezer
+            EC
           </a>
 
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
