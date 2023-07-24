@@ -37,7 +37,12 @@ const Skills = () => {
       </div>
 
       <div className="mt-[10rem]">
-        <h4 className="">Soft Skills</h4>
+        <h4 className="text-3xl font-bold text-black dark:text-gray-100 mb-14 text-center">Soft Skills</h4>
+        <div className="flex flex-col md:flex-row gap-16 items-center justify-center">
+          <div className="flex flex-col bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0">
+                <h3>hola</h3>
+          </div>
+        </div>
 
       </div>
 
