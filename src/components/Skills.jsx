@@ -1,4 +1,5 @@
-import { skills } from "../data";
+import { skills, softskills } from "../data";
+import { BsCheck2All } from "react-icons/bs";
 
 const Skills = () => {
   return (
@@ -37,15 +38,21 @@ const Skills = () => {
       </div>
 
       <div className="mt-[10rem]">
-        <h4 className="text-3xl font-bold text-black dark:text-gray-100 mb-14 text-center">Soft Skills</h4>
+        <h4 className="text-3xl font-bold text-black dark:text-gray-100 mb-14 text-center">
+          Soft Skills
+        </h4>
         <div className="flex flex-col md:flex-row gap-16 items-center justify-center">
           <div className="flex flex-col bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0">
-                <h3>hola</h3>
+            {softskills.slice(5, 10).map((s, index) => (
+              <div key={index + s} className="flex items-center gap-3 p-4">
+                <BsCheck2All color="white" size={22} />
+                <p className=" text-gray-300">{s}</p>
+              </div>
+            ))}
           </div>
         </div>
-
       </div>
-
+      {/* 30:00 */}
     </div>
   );
 };
