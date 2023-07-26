@@ -42,8 +42,17 @@ const Skills = () => {
           Soft Skills
         </h4>
         <div className="flex flex-col md:flex-row gap-16 items-center justify-center">
-          <div className="flex flex-col bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0">
+        <div className="flex flex-col bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0">
             {softskills.slice(5, 10).map((s, index) => (
+              <div key={index + s} className="flex items-center gap-3 p-4">
+                <BsCheck2All color="white" size={22} />
+                <p className=" text-gray-300">{s}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex flex-col bg-[#000000] dark:bg-[#224cff10] p-6 rounded-xl shadow-xl scale-110 hover:scale-125 ease-in-out duration-500 mb-10 md:mb-0">
+            {softskills.slice(0, 5).map((s, index) => (
               <div key={index + s} className="flex items-center gap-3 p-4">
                 <BsCheck2All color="white" size={22} />
                 <p className=" text-gray-300">{s}</p>
