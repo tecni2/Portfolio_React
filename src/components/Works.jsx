@@ -10,7 +10,7 @@ const Works = () => {
         {projects.map((p, index) => (
           <div
             key={index}
-            className="w-[350px] h-[350] cursor-pointer shadow-xl hover:scale-110 rounded-md"
+            className="w-[350px] h-[350] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md"
           >
             <img
               src={p.img}
