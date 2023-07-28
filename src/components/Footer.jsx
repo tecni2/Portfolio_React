@@ -12,9 +12,14 @@ const Footer = () => {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
         </div>
+        <div className="flex flex-col gap-5 text-md text-gray-300">
+          <p>tecni2.elie.elie@gmail.com</p>
+          <p>+57 3222457411</p>
+        </div>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+// 43:13
