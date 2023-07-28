@@ -5,6 +5,7 @@ import Project from "./components/Project";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
+import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -61,6 +62,9 @@ function App() {
         >
           <Works />
         </section>
+        <div className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]">
+          <Footer />
+        </div>
       </div>
     </div>
   );
