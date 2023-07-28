@@ -33,4 +33,3 @@ const Works = () => {
 
 export default Works;
 
-// 32:05
