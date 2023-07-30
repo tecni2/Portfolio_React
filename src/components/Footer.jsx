@@ -1,3 +1,5 @@
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+
 const Footer = () => {
   return (
     <footer>
@@ -17,9 +19,19 @@ const Footer = () => {
           <p>+57 3222457411</p>
         </div>
       </div>
+      <div className="flex flex-col gap-10 items-center justify-center pb-20">
+        <p className="text-gray-300 font-semibold tracking-wider">
+          Social Media
+        </p>
+
+        <div className="flex gap-10 text-gray-300 text-2xl mb-10">
+          <BsGithub className="hover:scale-125" />
+          <BsLinkedin className="hover:scale-125" />
+        </div>
+        <p className="text-gray-400 text-md tracking-wider">@2023 Eleazar Chusmita</p>
+      </div>
     </footer>
   );
 };
 
 export default Footer;
-// 43:13
