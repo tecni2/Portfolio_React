@@ -1,10 +1,16 @@
-
 import { Nodejs, Reactjs, Redux, Nextjs, Javascript } from "../assets";
 
 const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 2xl:gap-20 py-20">
-      <div className="flex flex-col mb-20 lg:mb-0">
+      <div
+        className="flex flex-col mb-20 lg:mb-0"
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <span className="text-lg font-bold text-orange-700">
           FULL-STACK DEVELOPER
         </span>
@@ -55,7 +61,7 @@ const Header = () => {
             alt=""
           />
           <img
-            src={Nextjs} 
+            src={Nextjs}
             className="absolute top-3 md:top-20 right-6 2xl:right-7 w-12 h-12 md:w-20 md:h-20"
             alt=""
           />
