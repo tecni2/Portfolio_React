@@ -53,7 +53,12 @@ const Header = () => {
           data-aos-easing="ease-in-out"
           alt="imagen de Javascript"
         />
-        <div className="relative w-full h-full rounded-full">
+        <div className="relative w-full h-full rounded-full"
+         data-aos="fade-up"
+         data-aos-offset="200"
+         data-aos-delay="50"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out">
           <img
             src={Reactjs}
             className="absolute top-7 md:top-20 left-3 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
