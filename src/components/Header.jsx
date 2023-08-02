@@ -1,15 +1,6 @@
 
 import { Nodejs, Reactjs, Redux, Nextjs, Javascript } from "../assets";
 
-// import Profile from "../assets/eleazar_chusmita_22.png";
-// import JavaScript from "../assets/javascript.svg";
-// import Nexts from "../assets/nextjs.svg";
-// import Reactjs from "../assets/reactjs.svg";
-// import Nodejs from "../assets/nodejs.svg";
-// import Redux from "../assets/redux.svg";
-
-
-
 const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 2xl:gap-20 py-20">
