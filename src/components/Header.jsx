@@ -43,11 +43,15 @@ const Header = () => {
         </div>
       </div>
       <div className="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:nt-20 lg:mt-0 flex items-center justify-center">
-        {/* src{Profile} */}
         <img
           src={Javascript}
-          className="w-20 h-full absolute -top-5 md:-top-10"
-          alt=""
+          className="w-40 h-full absolute -top-0 md:-top-10"
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+          alt="imagen de Javascript"
         />
         <div className="relative w-full h-full rounded-full">
           <img
