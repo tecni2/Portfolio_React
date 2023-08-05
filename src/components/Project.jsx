@@ -24,7 +24,6 @@ const Project = () => {
       data-aos-easing="ease-in-out"
       className="w-full flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-16">
 
-
         {tools.map((t, index) => (
           <div
             key={index}
