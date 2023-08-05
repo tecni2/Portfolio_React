@@ -9,6 +9,11 @@ const Works = () => {
       <div className="flex flex-wrap gap-10 lg:gap-20 justify-center">
         {projects.map((p, index) => (
           <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
             key={index}
             className="w-[350px] h-[350] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md"
           >
@@ -18,7 +23,6 @@ const Works = () => {
               className="w-full h-[250px] object-cover rounded-md"
             />
             <div className="w-full h-[100px] bg-gray-200 dark:bg-[#04133e]">
-              
               <h4 className="text-2xl text-black dark:text-gray-300 font-semibold py-2 px-1">
                 {p.title}
               </h4>
@@ -32,4 +36,3 @@ const Works = () => {
 };
 
 export default Works;
-
