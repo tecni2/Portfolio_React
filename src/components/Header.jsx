@@ -35,7 +35,7 @@ const Header = () => {
           <button className="bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5">
             Hire Me
           </button>
-          <a href="#Projects">
+          <a href="#projects">
             <button className="text-lg text-white font-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
               Projects
             </button>
